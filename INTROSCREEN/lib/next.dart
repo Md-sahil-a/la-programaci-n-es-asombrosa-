@@ -7,7 +7,12 @@ class NEXT extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Center(child: Text("S A❗")),
+        appBar: AppBar(
+          title: Text('Dreaming the code😴'),
+        ),
+        body: Center(
+          child: Text("S A❗"),
+        ),
       ),
     );
   }
